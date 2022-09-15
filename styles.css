@@ -1,0 +1,50 @@
+* {
+  margin: 5px;
+  padding: 0
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 95vh;
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+header {
+  padding: 1em 0 1em 0;
+}
+
+.nav {
+  
+}
+
+.nav ul {
+  height: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.nav ul li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  line-height: 50px;
+  display: block;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
