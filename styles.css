@@ -48,3 +48,105 @@ header {
   display: flex;
   flex: 1;
 }
+
+.left {
+  padding: 3em 0 3em 0;
+  flex: 1 1 50px;
+  
+}
+
+.left ul {
+  align-content: left;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+.left ul li {
+  list-style-type: none;
+  text-align: left;
+  margin: 0 0 0 0; 
+  height: 30px;
+}
+
+.left ul li a {
+
+  text-decoration: none;
+  
+  
+}
+
+
+
+main {
+  
+  padding: 3em 0 3em 0;
+  flex: 5 5 150px;
+}
+
+.firstImg {
+  height: 150px;
+  float: left;
+}
+
+.secondImg {
+  height: 150px;
+  float: right;
+}
+
+.art2 {
+  clear: left;
+}
+
+.thirdImg {
+  height: 150px;
+  float: left;
+}
+
+.art3{
+  clear: right;
+}
+
+footer {
+  
+  padding: 1em 0 1em 0;
+  
+}
+
+footer ul {
+  text-decoration: none;
+  line-height: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex: block;
+  justify-content: space-around;
+}
+
+footer ul li {
+  
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  align-items: center;
+  
+
+}
+
+footer ul li a {
+  
+  text-decoration: none;
+  line-height: 50px;
+  height: 50px;
+  width: 150px;
+  
+}
+
+@media all and (max-width: 550px ) {
+  .main {
+    flex-direction: column;
+  }
+  main {
+    padding: 5em 0 5em 0;
+  }
+}
